@@ -8,12 +8,12 @@
 ** Last update Sun Feb 28 21:31:17 2016 Ronan Boiteau
 */
 
-#include "my.h"
-#include "sudoki_chk.h"
-#include "sudoki_solver.h"
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <unistd.h>
+#include "my.h"
+#include "sudoki_chk.h"
+#include "sudoki_solver.h"
 
 static void	_print_map(char **map)
 {
