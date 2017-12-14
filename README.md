@@ -25,7 +25,7 @@ Example:
 
 ## Sudoku format
 
- - You can find sudoku files samples in the `samples/` folder.
+You can find sudoku files samples in the `samples/` folder.
 
 ## Authors
 
