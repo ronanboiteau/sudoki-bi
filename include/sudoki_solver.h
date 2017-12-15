@@ -1,13 +1,3 @@
-/*
-** sudoki_solver.h for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Fri Feb 26 21:00:01 2016 Ronan Boiteau
-** Last update Fri Apr 29 00:33:21 2016 Ronan Boiteau
-*/
-
 #ifndef SUDOKI_SOLVER_H_
 # define SUDOKI_SOLVER_H_
 

@@ -1,15 +1,5 @@
-/*
-** chk_file.c for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Sat Feb 27 20:04:03 2016 Ronan Boiteau
-** Last update Sun Feb 28 02:17:56 2016 Ronan Boiteau
-*/
-
-#include "my.h"
 #include <stdlib.h>
+#include "my.h"
 
 int		_chk_nbr_columns(char *input)
 {

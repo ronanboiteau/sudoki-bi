@@ -1,17 +1,7 @@
-/*
-** solver.c for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Fri Feb 26 21:06:12 2016 Ronan Boiteau
-** Last update Sun Feb 28 21:16:23 2016 Ronan Boiteau
-*/
-
+#include <stdlib.h>
 #include "my.h"
 #include "sudoki_chk.h"
 #include "sudoki_solver.h"
-#include <stdlib.h>
 
 static int	find_j(int pos)
 {

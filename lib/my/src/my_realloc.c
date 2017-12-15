@@ -1,13 +1,3 @@
-/*
-** my_realloc.c for my_realloc in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Sun Feb 28 15:28:08 2016 Ronan Boiteau
-** Last update Sun Feb 28 15:28:39 2016 Ronan Boiteau
-*/
-
 #include "my.h"
 #include <stdlib.h>
 

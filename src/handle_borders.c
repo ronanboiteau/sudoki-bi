@@ -1,15 +1,5 @@
-/*
-** handle_borders.c for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Sun Feb 28 02:53:21 2016 Ronan Boiteau
-** Last update Sun Feb 28 21:15:39 2016 Ronan Boiteau
-*/
-
-#include "my.h"
 #include <stdlib.h>
+#include "my.h"
 
 char		**_get_invalid_map(char **map, char **map_clean)
 {

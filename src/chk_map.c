@@ -1,13 +1,3 @@
-/*
-** chk_map.c for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Sun Feb 28 03:00:01 2016 Ronan Boiteau
-** Last update Sun Feb 28 03:00:27 2016 Ronan Boiteau
-*/
-
 #include "my.h"
 
 static int	_chk_line(char *line)

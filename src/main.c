@@ -1,13 +1,3 @@
-/*
-** main.c for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Fri Feb 26 20:04:15 2016 Ronan Boiteau
-** Last update Sun Feb 28 21:31:17 2016 Ronan Boiteau
-*/
-
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <unistd.h>

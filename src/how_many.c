@@ -1,13 +1,3 @@
-/*
-** how_many.c for sudoki-bi in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Sun Feb 28 03:31:04 2016 Ronan Boiteau
-** Last update Sun Feb 28 03:31:05 2016 Ronan Boiteau
-*/
-
 int	count_square(char **grid, char value, int x, int y)
 {
   int	i;

@@ -1,22 +1,12 @@
-/*
-** my_str_to_wordtab.c for my_str_to_wordtab in /home/boitea_r
-** 
-** Made by Ronan Boiteau
-** Login   <boitea_r@epitech.net>
-** 
-** Started on  Thu Dec 24 18:26:48 2015 Ronan Boiteau
-** Last update Mon Jan 18 17:32:39 2016 Ronan Boiteau
-*/
-
-#include "my.h"
 #include <stdlib.h>
+#include "my.h"
 
 static t_uint	_get_word_size(char *str)
 {
   t_uint	size;
 
   size = 0;
-  while (str[size] && str[size] != ' ' && str[size] != C_TAB)
+  while (str[size] && str[size] != ' ' && str[size] != '\t')
     size += 1;
   return (size);
 }
@@ -30,9 +20,9 @@ static t_uint	_count_words(char *str)
   idx = 0;
   while (str[idx])
     {
-      if (str[idx] == ' ' || str[idx] == C_TAB)
+      if (str[idx] == ' ' || str[idx] == '\t')
 	words += 1;
-      while (str[idx] == ' ' || str[idx] == C_TAB)
+      while (str[idx] == ' ' || str[idx] == '\t')
 	idx += 1;
       idx += 1;
     }
@@ -47,7 +37,7 @@ static char	*_fill_column(char *clean_str, t_uint *idx_str)
 
   size = _get_word_size(clean_str + *idx_str);
   if ((column = malloc(sizeof(char) * (size + 1))) == NULL)
-    my_exit(EXIT_FAILURE, "ERROR: Out of memory! malloc() failed" EOL);
+    my_exit(EXIT_FAILURE, "ERROR: Out of memory! malloc() failed\n");
   idx = 0;
   while (idx < size && clean_str[*idx_str])
     {
@@ -55,7 +45,7 @@ static char	*_fill_column(char *clean_str, t_uint *idx_str)
       *idx_str += 1;
       idx += 1;
     }
-  column[idx] = C_NUL;
+  column[idx] = '\0';
   *idx_str += 1;
   return (column);
 }
@@ -71,7 +61,7 @@ char		**my_str_to_wordtab(char *clean_str)
     return (NULL);
   words = _count_words(clean_str);
   if ((tab = malloc(sizeof(char *) * (words + 1))) == NULL)
-    my_exit(EXIT_FAILURE, "ERROR: Out of memory! malloc() failed" EOL);
+    my_exit(EXIT_FAILURE, "ERROR: Out of memory! malloc() failed\n");
   idx_str = 0;
   idx_line = 0;
   while (idx_line < words)
