@@ -26,8 +26,3 @@ Example:
 ## Sudoku format
 
 You can find sudoku files samples in the `samples/` folder.
-
-## Authors
-
-* **Oscar Stefanini** ([GitHub](https://github.com/Ostefanini/))
-* **Ronan Boiteau** ([GitHub](https://github.com/ronanboiteau) / [LinkedIn](https://www.linkedin.com/in/ronanboiteau/))
